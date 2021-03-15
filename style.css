@@ -1,0 +1,79 @@
+ul li{
+    border: 1px solid #ccc; 
+ }
+
+ul li:hover {
+    border: 1px solid #777;
+ }
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+ }
+
+ * {
+    box-sizing: border-box;
+ }
+
+.clearfix:after{
+    padding: 0 6px;
+    /*float: left;*/   
+ }
+
+.container ul li{
+    list-style: none;
+    display: inline-block;
+ }
+
+ .computers h2 {
+   text-align: center;
+   color: #CC6600;
+ }
+
+body {
+   background-color: #800517;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: #EAE3CB;
+ }
+
+ .credits {
+    text-align: center;
+ }
+
+.credits p {
+    color: #CC6600;
+    text-decoration: none;
+ }
+
+.credits a:link {
+   color: #CC6600;
+   text-decoration: none;
+ }
+
+.credits a:visited{
+   color: #CC6600;
+   text-decoration: none;
+ }
+
+ .credits a:active{
+   color: #CC6600;
+   text-decoration: none;
+ }
+
+ .credits a:hover{
+   color: #1569C7;
+   text-decoration: none;
+ }
+
+ @media only screen and (max-width: 700px){
+    .grid {
+        width: 49.99999%;
+        margin: 6px 0;
+     }
+ }
+
+ @media only screen and (max-width: 500px){
+    .grid {
+        width: 100%;
+     }
+ }

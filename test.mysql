@@ -1,0 +1,7 @@
+INSERT INTO repventas(`nombre`,`oficina`,`titulo`,`contrato`,`director`,`cuota`,`ventas`)
+VALUES
+	('Yeison Perez', 1, 'Asesor Comercial', '2004-05-15', 'Luisa Maria Naranjo', 15000,  250000),
+    ('Juan Manuel Fernandez', 1, 'Jefe de ventas', '2001-02-10', 'Camilo Chaparro', 15000,  250000),
+    ('Mauricio Arias', 1, 'Jefe de compras', '2000-05-20', 'Luis Alejadro Diaz', 15000,  250000),
+    ('Johana Velez', 5, 'Jefe de mercadeo', '2004-03-25', '', 15000,  250000),
+    ('Lina Garcia', 2, 'Jefe de ventas'1999-02-15', 'Federico Lorca', 15000,  250000),
