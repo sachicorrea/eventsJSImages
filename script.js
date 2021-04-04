@@ -2,7 +2,7 @@
 
 document.querySelector('.gallery').addEventListener('click', function(e){
     console.log(e);
-    e.preventDefault();
+    //e.preventDefault();
 
     if(e.target.tagName === 'IMG'){
         var howMany = this.querySelectorAll('li').length;
